@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content=""with=device-width, initial-scal=1.0">
+        <title>Group 8</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    </head>
+        <body>
+         <section class="header">
+             <nav>
+                 <a href="index.html"><img src="PHT.jpg"></a>
+                 <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">BLOG</a></li>
+                    </ul>  
+                 </div>
+                 <i class="fa fa-bars"onclick="showMenu()"></i>
+             </nav>
+             <div class="text-box">
+                <h1>Chào mừng mọi người đến với trang web của chúng tôi</h1>
+                <p>Thành công hay thất bại đều nằm ở bạn</p>
+                <a href=""class="hero-btn">Hãy ghé thăm</a>
+             </div>
+
+         </section>
+         <!-----Course----->
+         <section class="course">
+            <h1> Course </h1>
+            <p>offer</p>
+            <div class="row">
+                <div class="course-col">
+                    <h3>Slogan1</h3>
+                    <p>Học là sáng suốt.</p>
+                </div>
+                <div class="course-col">
+                    <h3>Slogan2</h3>
+                    <p>Học là sức mạnh.</p>
+                </div>
+                <div class="course-col">
+                    <h3>Slogan3</h3>
+                    <p>Kiến thức là chìa khóa.</p>
+                </div>
+            </div>
+         </section>
+            <!-----Campus----->
+        
+<section class="campus">
+   <h1>1 thành viên của bọn tớ</h1>
+   <div class="row">
+    <div class="campus-col">
+        <img src="Chinh.png">
+        <h3>Nguyễn Hồng Chinh</h3>
+    </div>
+    <div class="campus-col">
+        <img src="1.png">
+        <h3>Cung Hoàng Đạo:bọ Cạp</h3>
+    </div>
+    <div class="campus-col">
+        <img src="2.png">
+        <h3>Năm sinh 2007</h3>
+    </div>
+   </div>
+   </section>
+<!-- -----Facilities----->
+ <section class="facilities">
+    <h1>Nhóm của chúng tớ</h1>
+    <p>1 số thành viên khác</p>
+
+    <div class="row">
+        
+        <div class="facilities-col">
+            <img src="hân.jpg">
+            <h3>Lê Ngọc Hân</h3>
+            <p>Họ Và tên:Lê Ngọc Hân</p>
+            <p>Năm sinh:2007</p>
+    </div>
+        <div class="facilities-col">
+            <img src="Dũng.jpg">
+            <h3>Bùi Mạnh Dũng</h3>
+            <p>Họ Và tên:Bùi Mạnh Dũng</p>
+            <p>Ngày,tháng,năm sinh:2007</p>
+            <p>Cung hoàng đạo:Xử Nữ</p>
+        </div>
+     <div class="facilities-col">
+            <img src="Hằng.jpg">
+            <h3>Nguyễn Minh Hằng</h3>
+            <p>Họ Và tên:Nguyễn Minh Hằng</p>
+            <p>Ngày,tháng,năm sinh:2007</p>
+            <p>Cung hoàng đạo:Song Ngư</p>
+        </div>
+</div>
+<!-----textimonials----->
+<section class="textimonials">
+<h1>Những câu nói bọn tớ ấn tượng</h1>
+ <div clas="row">
+    <div class="textimonials-col">
+        <img src="ảnh Bác Hồ.jpg">
+        <div>
+            <p>Học ở trường, học trong sách vở, học lẫn nhau và học dân.</p>
+            <h3>Bác Hồ</h3>
+        </div>
+
+    </div>
+    <div class="textimonials-col">
+        <img src="ảnh Bill Gates.jpg">
+        <div>
+            <p>Cuộc sống vốn dĩ không công bằng, nên bạn hãy làm quen với điều đó đi</p>
+            <h3>Bill Gates</h3>
+        </div>
+    </div>
+ </div>
+</section>
+
+ 
+<!-------Call to Action------>
+<section class="cta">
+    <h1>Hãy để lại lời nhắn cho chúng tớ nhé</h1>
+    <a href="" class="hero-btn">Liên hệ nhé</a>
+    <a href="https://www.facebook.com/profile.php?id=100055098798476">Facebook của Hân</a>
+    <a href="https://www.facebook.com/share/187JbaboxZ/">Facbook của Dũng</a>
+    <a href="https://www.facebook.com/ngminhhang07?locale=vi_VN">Facbook của Hằng</a>
+    <a href="https://www.facebook.com/chinhn.nguyen.31?locale=vi_VN">Facbook của Chinh</a>
+</section>
+<section class="cảm ơn">
+<p>Cảm ơn đã ghé!</p>
+</section>
+
+
+<!------JavaScript for Toggle Menu -------->
+         <script>
+            var navLinks = document.getElementBYId("navlinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px"
+            }
+         </script>
+        </body>
+     </head>
+     </html>
